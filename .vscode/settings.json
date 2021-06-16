@@ -1,0 +1,20 @@
+{
+  // turn off the format on save
+  "editor.formatOnSave": false,
+  "[typescript]": {
+    // set prettier as the default formatter for typescript
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // turn on format on save for typescript
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  }
+}
